@@ -29,3 +29,5 @@ const combine = (res,operation, ...numbers) => {    //... обозначчает
  combine(showresult.bind(this,'The result after adding all numbers is:'), "ADD", 1, 5, 10,'fffhhe', -3, 10,12);
  combine(showresult.bind(this,'The result after adding all numbers is:'),'ADD' ,1, 4, 12, -12, 13, 20, -14,101);
  combine(showresult.bind(this,'The result after subtracting all numbers is:'),'SUBTRACT',2, 4, 12, );
+
+ 
